@@ -1,0 +1,74 @@
+# =========== dependencies ===========
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# =========== next.js / build output ===========
+.next/
+out/
+build/
+dist/
+
+# =========== testing ===========
+coverage/
+
+# =========== env / secrets ===========
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*credentials*
+*secret*
+secrets/
+
+# =========== logs ===========
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# =========== typescript ===========
+*.tsbuildinfo
+next-env.d.ts
+
+# =========== OS ===========
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =========== editors / IDEs ===========
+.idea/
+.vscode/*
+!.vscode/settings.json.example
+!.vscode/extensions.json
+*.swp
+*.swo
+*~
+
+# =========== vercel / deploy ===========
+.vercel
+
+# =========== private — keep local only ===========
+# Resume — personal document, upload separately via Vercel dashboard
+Shuddhabrota*Resume*.pdf
+site/public/Shuddhabrota_Banerjee_Resume.pdf
+resume/
+
+# local scratch / private notes
+notes/
+scratch/
+drafts/
+TODO.local.md
+*.local.md
